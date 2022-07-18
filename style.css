@@ -71,10 +71,28 @@ top: 140px;
 }
 
 .btn {
-background-color: #E02C6D;
-padding: 10px 24px;
-color: white;
-border-radius: 41px;
-border: none;
-margin-top: 10px;
+      background-color: #E02C6D;
+      padding: 10px 24px;
+      color: white;
+      border-radius: 41px;
+      border: none;
+      margin-top: 10px;
+}
+
+
+.company-list{
+            background-color: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);;
+            border-top: 1px solid #D1D1D1;
+            border-bottom: 1px solid #D1D1D1;
+            margin-top: 60px;
+
+}
+
+.brand{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+} 
+.brand li {
+      list-style: none;
 }
