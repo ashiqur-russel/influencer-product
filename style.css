@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway&family=Roboto&display=swap');
+
+body{
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      background-color:#ffffff;
+}
+
+.logo {
+      margin-left: 120px;
+}
+.nav-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 87px;
+      margin-right: 120px;
+}
+.nav-list{
+         margin-left: 120px;
+}
+
+.nav-list ul {
+      display: flex;
+      justify-content: space-evenly;
+   
+}
+
+.nav-list ul li {
+      list-style: none;
+      margin-right: 20px;
+     
+}
+
+/* -----------------
+     Header Section
+------------------- */
+
+.section-container{
+      margin: auto 120px;
+}
+
+.conatiner{
+      display: flex;
+}
+
+
+.header-img {
+     width: 350px;
+     position: absolute;
+left: 650px;
+top: 140px;
+
+     
+}
+.header-details {
+      margin-top: 50px;
+      
+}
+.title{
+      font-size: 52px;
+      line-height: 70px;
+      margin: 0;
+
+}
+.title-details{
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+}
+
+.btn {
+background-color: #E02C6D;
+padding: 10px 24px;
+color: white;
+border-radius: 41px;
+border: none;
+margin-top: 10px;
+}
